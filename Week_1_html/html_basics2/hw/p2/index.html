@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            /* border-collapse: collapse; */
+            border: solid black 1px;
+            /* background-color: whitesmoke; */
+        }
+        th{
+            border: solid black 1px;
+        }
+        tr{
+            border: solid black 1px;
+        }
+        td{
+            border: solid black 1px;
+        }
+        am{
+
+        }
+        212pm{
+
+        }
+        pm{
+          background-color: aquamarine;  
+        }
+        /* onehalf{
+        column-gap: 10cm; */
+        
+    </style>
+</head>
+<body>
+    <p>3. To create an html file as "table.html"</p>
+    <table>
+        <!-- 1st row -->
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="7">Seminar</th>
+        </tr>
+        <!-- 2nd row -->
+        <tr>
+            <th colspan="3">Schedule</th>
+            <th rowspan="2" colspan="5">Topic</th>
+        </tr>
+        <!-- 3rd row -->
+        <tr>
+            <th>Begin</th>
+            <th colspan="2">End</th>
+        </tr>
+        <!-- 3rd row -->
+        <tr>
+            <th rowspan="2">Monday</th>
+            <th style="background-color: rgb(248, 248, 199);" rowspan="2" class="am">8:00 am.</th>
+            <th style="background-color: rgb(197, 152, 238);" rowspan="2" colspan="2" class="5pm">5:00 pm.</th>
+            <th colspan="3">Introduction to XML</th>
+        </tr>
+        <!-- 4th row -->
+        <tr>
+            <th>Validity DTD and Relax NG</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Tuesday</th>
+            <th style="background-color: rgb(248, 248, 199);" rowspan="" class="am">8:00 am.</th>
+            <th style="background-color: rgb(248, 248, 199);" rowspan="" colspan="2" class="am">11:00 am.</th>
+            <th rowspan="2" class="onehalf">XPath</th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(248, 248, 199);" rowspan="" class="am">11:00 am.</th>
+            <th style="background-color: rgb(137, 244, 192);" rowspan="" colspan="2" class="212pm">2:00 pm.</th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(137, 244, 192);" rowspan="" class="212pm">2:00 pm.</th>
+            <th style="background-color: rgb(197, 152, 238);" rowspan="" colspan="2" class="pm">5:00 pm.</th>
+            <th colspan="2">XSL Transformations</th>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <th style="background-color: rgb(248, 248, 199);" rowspan="" class="am">8:00 am.</th>
+            <th style="background-color: rgb(137, 244, 192);" rowspan="" colspan="2" class="212pm">12:00 pm.</th>
+            <th colspan="">XSL Formating Objects</th>
+        </tr>
+    </table>
+</body>
+</html>
