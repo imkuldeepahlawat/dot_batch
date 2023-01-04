@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form making</title>
+    <style>
+        .sicon{
+            height: 40px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact us form</h1>
+    <form action="#">
+        <!-- for name -->
+        <div>
+            <label for="name">First Name</label>
+            <input type="text">
+        </div>
+        <br>
+        <!-- For Last Name -->
+        <div>
+            <label for="last_name">Last Name </label>
+            <input type="text">
+        </div>
+        <br>
+        <!-- for gender -->
+        <div>
+            Gender <br>
+            <label for="gender"><input type="radio">Male</label>
+            <label for=""><input type="radio">Female</label>
+            <label for=""><input type="radio">Other</label>
+        </div>
+        <br>
+        <!-- dob select section -->
+        <div>
+            <label for="">Date Of Birth</label><br>
+            <input type="date" min="12/08/1998" max="22/2/2023">
+        </div>
+        <br>
+        <!-- dropdown menu -->
+        <div>
+            <label for="">Select Car</label><br>
+            <select>
+                <option value="">--Choose Your Option--</option>
+                <option value="">Mustang</option>
+                <option value="">Fortuner</option>
+                <option value="">Scorpio</option>
+                <option value="">Folksvagan</option>
+                <option value="">Thar</option>
+            </select>
+        </div>
+        <br>
+        <!-- check -->
+        <div>
+            <label for="">Profile Picture</label><br>
+            <input type="file" name="" id="">
+        </div>
+        <br>
+        <!-- terms and codition -->
+        <div>
+            <legend>
+                <label for="" >Do you Agree Terms and Conditons <br> <a href="#">T&C</a> </label>
+                <input type="checkbox" name="tc" id="">
+            </legend>
+        </div>
+        <br>
+        <!-- text area -->
+        <div>
+            <label for="">Your Address <br></label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" name="" id="">
+        </div>
+    </form>
+    <!-- social Links -->
+    <br>
+    <div>
+        <!-- instagram -->
+        <a href="#"><img class="sicon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt=""></a>
+        <!-- youtube -->
+        <a href=""><img class="sicon" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt=""></a>
+        <!-- telegram -->
+        <a href=""><img class="sicon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt=""></a>
+    </div>
+</body>
+</html>
