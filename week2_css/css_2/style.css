@@ -1,0 +1,65 @@
+.bigbox{
+    margin: 20px;
+    height: 450px;
+    width: 500px;
+    /* border:1px solid whitesmoke; */
+    box-shadow:5px 5px 5px rgb(214, 213, 213),-5px -0px 5px rgb(214, 213, 213);
+    border-radius: 8px;
+    background-color: white;
+}
+.link1{
+    text-decoration: none;
+}
+.image1 img{
+    margin-top: 20px;
+    margin-left: 22px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+.htitle{
+    font-family: Rubik,sans-serif;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 22px;
+    text-decoration: strong;
+    font-size: 170%;
+    font-weight: bold;
+    color: black;
+}
+.hrline{
+    height: 2px;
+    width: 70%;
+    background-color: aliceblue;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 22px;
+}
+.price{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Rubik,sans-serif;
+    font-weight: bold;
+    margin-left: 22px;
+}
+.p1{
+    position: relative;
+}
+.p2{
+    margin-left: 10px;
+    position: relative;
+    
+}
+.p3{
+    margin-left: 20px;
+    border-radius: 2px;
+    background-color: rgb(0, 255, 255);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
