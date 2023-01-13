@@ -1,0 +1,38 @@
+*{
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* use bot flex direction and flex wrap in the flex flow section */
+    /* flex-flow: row wrap; */
+    /* justify-content:space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end;     */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* align-items: space-between; */
+    /* gap: 10px; */
+    
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+}
+#box1{}
+#box2{}
+#box3{}
+#box4{}
