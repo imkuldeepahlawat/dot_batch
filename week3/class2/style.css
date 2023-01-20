@@ -1,0 +1,17 @@
+:root{
+
+    --dark-red:red;
+}
+.container
+{
+    color: var(--dark-red);
+    background-color: red;
+    height: 300px;
+    border: 1px solid darkblue;
+    width: 300px;
+}
+.box{
+    background-color: aqua;
+    border: 1px solid darkblue;
+    color: chocolate;
+}

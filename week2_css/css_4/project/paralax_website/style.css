@@ -75,13 +75,13 @@ section{
     font-weight: 600;
 }
 .bg1{
-    background-image: url(/project/paralax_website/images/sport-1.jpg);
+    background-image: url(images/sport-1.jpg);
 }
 .bg2{
-    background-image: url(/project/paralax_website/images/sport-2.jpg);
+    background-image: url(images/sport-2.jpg);
     
 }
 .bg3{
 
-    background-image: url(/project/paralax_website/images/sport-3.jpg);
+    background-image: url(images/sport-3.jpg);
 }
