@@ -16,14 +16,34 @@
           rel="stylesheet"
         />
         <style>
-            *{
-                /* overflow-x: hidden; */
+            .corefeaturesection{
+                background-size: 100% 100%;
+                padding-top: 12rem;
+                padding-bottom: 12rem;
             }
+    
+            .ctaSection{
+              background-size: 100% 100%;
+            }
+    
+            .companiesList{
+              animation:10s infinite linear moveCompany;
+            }
+    
+            @keyframes moveCompany {
+              0%{
+                top:0;
+              }
+              100%{
+                top:-50%;
+              }
+            }
+    
         </style>
 </head>
 <body>
     <!-- wrapper -->
-    <section>
+    <section class="overflow-x-hidden relative w-full">
         <!-- nav start -->
         <nav class="bg-deepBlue">
             <div class="relative w-[1080px] mx-auto flex items-center justify-between">
@@ -992,61 +1012,113 @@
             </section>
             <!-- testomonail Section -->
             <section class="relative">
-                <div class="">
+                <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
 
-                    <img src="./images/feature-section1-dottedrows.png" alt="">
+                    <img src="./images/feature-section1-dottedrows.png" alt=""
+                    class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
 
-                    <h2>An experience
+                    <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead text-center">An experience
                         <br>People Love to Talk About</h2>
-                    <div class=""></div>
+                    <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
 
                     <!-- left button -->
-                    <button>
-                        <div class="">
-                            <i data-feather="chevron-left"></i>
+                    <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2
+                    flex justify-center items-center">
+                        <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
+                        mix-blend-multiply">
+                            <i data-feather="chevron-left"
+                            class="stroke-[5px] w-6 h-6  text-gray-400"></i>
                         </div>
                     </button>
 
                     <!-- right button -->
-                    <button>
-                        <div class="">
-                            <i data-feather="chevron-right"></i>
+                    <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2
+                    flex justify-center items-center">
+                        <div class="w-[65%] h-[65%] bg-[#f4f8ff] flex rounded-full justify-center
+                        items-center mix-blend-multiply">
+                            <i data-feather="chevron-right" 
+                            class="stroke-[5px] w-6 h-6 text-gray-400"></i>
                         </div>
                     </button>
 
                     <!-- main content -->
-                    <div class="">
+                    <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
                         <!-- left image -->
-                        <img src="./images/testimonial.jpg" height="320px" width="320px" alt="">
+                        <img src="./images/testimonial.jpg" height="320px" width="320px" alt=""
+                        class="rounded-xl">
 
                         <!-- right part -->
-                        <div class="">
-                            <img src="./images/quotes.svg" width="35px" height="40px" alt="">
+                        <div class="max-w-[400px]">
+                            <img src="./images/quotes.svg" width="35px" height="40px" alt=""
+                            class="-mb-2">
 
-                            <p>Readmade Closed Wallet Solution For Quick Refunds</p>
-                            <a href="#">Learn More</a>
-                            <p>Lorem Ipsum</p>
-                            <p>CEO, XYZ Engineering Company</p>
-                            <img src="./images/fake-company-logo.png" alt="">
+                            <p class="font-mullish text-3xl font-extralight"
+                            >Readmade Closed Wallet Solution For Quick Refunds</p>
+                            <a href="#" class="text-grayText italic underline">Learn More</a>
+                            <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
+                            <p class="font-mullish font-medium">CEO, XYZ Engineering Company</p>
+                            <img src="./images/fake-company-logo.png" alt="" width="80px" height="40px">
                         </div>
                     </div>
 
                     <!-- 6 doted div -->
-                    <div class="">
+                    <div class="w-full flex flex-row mx-auto space-x-2 justify-center">
                         <!-- dot 1 -->
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                        <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+                        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
                     </div>
                 </div>     
             </section>
+
             <!-- cta -->
+            <section class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[510px]">
+                <!-- content box-->
+                <div class="w-11/12 max-w-[1080px]">
+                    <!-- left part -->
+                    <div class="">
+                        <h2>Supercharge your business with Razorpay</h2>
+                        <div class=""></div>
+                        <p>Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
 
-            <section>
+                        <ul>
+                            <li>
+                                <i data-feather="check"></i>
+                                <span>Quick Onboarding</span>
+                            </li>
+                            <li>
+                                <i data-feather="check"></i>
+                                <span>Access to entire product suite</span>
+                            </li>
+                            <li>
+                                <i data-feather="check"></i>
+                                <span>API access</span>
+                            </li>
+                            <li>
+                                <i data-feather="check"></i>
+                                <span>24x7 Support</span>
+                            </li>
+                        </ul>
 
+                        <button>
+                            Sign Up
+                            <svg 
+                            viewBox="0 0 24 24" 
+                            focusable="false" 
+                            class="w-[14px] h-[14px] ml-3">
+                                <path 
+                                fill="currentColor" 
+                                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>        
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- right section -->
+                    <img src="./images/ctaImg.svg" alt="">
+
+                </div>
             </section>
     </section>
     <script>
