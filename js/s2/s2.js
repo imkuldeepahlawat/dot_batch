@@ -31,28 +31,48 @@
     // --------------------------------objects---------------------------------
     // instente of class
     // solo object
-        // let human = {
-        //     hand:2,
-        //     leg:2,
-        //     eyes:2,
-        //     ear:2,
-        //     walk:function(){
-        //         console.log("Walk until tired")
-        //     }
-        // } 
-    // factory function
-    function factoryFun(){
-        // returning as a object
-        return human = {
+        let human = {
             hand:2,
             leg:2,
             eyes:2,
             ear:2,
             walk:function(){
-                console.log("Walk until tired");
+                console.log("Walk until tired")
             }
-        }
-    }
-        let ex = factoryFun();
-        console.log(ex.walk());
+        } 
+    // factory function
+    // function factoryFun(){
+    //     // returning as a object
+    //     return human = {
+    //         hand:2,
+    //         leg:2,
+    //         eyes:2,
+    //         ear:2,
+    //         walk:function(){
+    //             console.log("Walk until tired");
+    //         }
+    //     }
+    // }
+    //     let ex = factoryFun();
+    //     console.log(ex.walk());
     // constructor function
+        // function example(){
+        //     this.ear=2;
+        //     this.hand =2;
+        //     this.walk = function(){
+        //         console.log("Walk until tired");
+        //     }
+        // }
+        // let a = new example();
+        // a.walk();
+    // ----------------Constructor Property-----------------------------------
+    // a parent constructor
+    let a = new Function('health','len','let human = {
+        hand:2,
+        leg:2,
+        eyes:2,
+        ear:2,
+        walk:function(){
+            console.log("Walk until tired")
+        }
+    }');
