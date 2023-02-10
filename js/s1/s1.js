@@ -17,3 +17,10 @@ const da = 5;// not redeclare and neither be re assign
 // console.log("Hello World");
 // }
 // here is a funtion who will print hello world 1 time 10 time or thousands of time
+// -----------------------------------ArithiMaticOperators----------------------------------
+// + - * / %
+// -----------------------------------logicalOperators--------------------------------------
+// && and operator
+//   || or operator
+// ! is not aperator
+console.log("This is my Basics of javaScript commit");
